@@ -1,5 +1,5 @@
 ## Basic Calculator
-A calculator app that can perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+A calculator app that can perform basic arithmetic operations such as addition, subtraction, multiplication, and division. View live webpage [here](https://annacate.github.io/calculator/).
 
 ## Motivation
 This app was created as the final project in the "JavaScripts Basics" sub-section of the "Web Development 101" section of The Odin Project [curriculum](https://www.theodinproject.com/courses?ref=homenav).
