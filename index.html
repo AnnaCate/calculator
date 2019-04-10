@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" content="Calculator">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css"> 
+</head>
+<body>
+    <!-- <h1>Calculator</h1> -->
+
+    <form name="calculator">
+        <table>
+            <tr>
+                <td colspan="4">
+                    <input type="text" name="display" id="display" disabled value="0">
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="button" class="number" name="seven" value="7"></td>
+                <td><input type="button" class="number" name="eight" value="8"></td>
+                <td><input type="button" class="number" name="nine" value="9"></td>
+                <td><input type="button" class="operator" name="plus" value="+"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" class="number" name="four" value="4"></td>
+                <td><input type="button" class="number" name="five" value="5"></td>
+                <td><input type="button" class="number" name="six" value="6"></td>
+                <td><input type="button" class="operator" name="minus" value="-"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" class="number" name="one" value="1"></td>
+                <td><input type="button" class="number" name="two" value="2"></td>
+                <td><input type="button" class="number" name="three" value="3"></td>
+                <td><input type="button" class="operator" name="multiply" value="x"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" id="clear" name="clear" value="C"></td>
+                <td><input type="button" class="number" name="zero" value="0"></td>
+                <td><input type="button" id="equals" name="equals" value="="></td>
+                <td><input type="button" class="operator" name="divide" value="&#247"></td>
+            </tr>
+        </table>
+    </form>
+
+    <script src='scripts/calculator.js'></script>
+</body>
+</html>
